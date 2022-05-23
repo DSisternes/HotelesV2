@@ -187,7 +187,7 @@ height: 100%;
     
      <div id="app">
       
-    <nav class="navbar navbar-expand-lg navbar-blue shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-blue shadow-sm navbar-responsive">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">MyHotel</a>
        
@@ -239,7 +239,7 @@ height: 100%;
       </nav>
      </div>
 </head>
-<div class="area"></div><nav class="main-menu">
+<div class="area area-responsive"></div><nav class="main-menu">
   <ul><li>
           <a href="#!">
               <i class="fa fa-calendar fa-2x"></i>
@@ -306,7 +306,7 @@ height: 100%;
   </section>
 </body>
 @yield('footer')
-<footer class="footer text-center text-lg-start text-muted ">
+<footer class="footer text-center text-lg-start text-muted fotter-responsive">
     <!-- Section: Social media -->
     <section
       class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom "
@@ -337,7 +337,7 @@ height: 100%;
     <!-- Section: Social media -->
   
     <!-- Section: Links  -->
-    <section class="text-footer">
+    <section class="text-footer-responsive">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
@@ -424,7 +424,7 @@ height: 100%;
     <!-- Section: Links  -->
   
     <!-- Copyright -->
-    <div class="pie-footer text-center p-4 text-footer">
+    <div class="pie-footer-responsive text-center p-4 text-footer ">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MiHotel.com</a>
     </div>
